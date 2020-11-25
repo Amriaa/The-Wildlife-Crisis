@@ -1,0 +1,65 @@
+h1 {color:rgb(21, 162, 197);
+   }
+h1 {text-align: center;}
+h1 {font-family: 'Bebas Neue', cursive;
+}
+h1 {font-size: 150px;}
+body {background-color: #31706E;}
+
+.intro {font-family: 'Bebas Neue', cursive;
+color: white;}
+
+p {font-family:'Bebas Neue', cursive;
+    text-align: center;
+    font-size: large;
+    color: rgb(24, 26, 25);}
+    footer {text-align:center}
+
+.column {
+    float: left;
+    width: auto;
+    margin-bottom: 30px;
+    padding: 0 40px;}
+
+    h2 {font-family: 'Bebas Neue', cursive;
+text-align: center;}
+  
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+      width: auto;
+      display: block;
+    }
+  }
+ 
+  .container {
+    padding: 0 32px;
+  }
+
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: rgb(189, 22, 22);
+  }
+
+  
