@@ -1,0 +1,78 @@
+body {
+    background: url("images/yangtze_porpoise.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+}
+#navbar {
+    background-color: lightskyblue;
+    display: flex;
+}
+
+#navbar a {
+    height: 50px;
+    flex: 1;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a:hover {
+    background-color:#537c96;
+    color: #222222;
+}
+
+footer {
+    background-color: lightskyblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin: 0 5px;
+    text-decoration: none !important;
+}
+
+.social-icon {
+    background-color: white;
+    color: lightskyblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon:hover {
+    color: #222222;
+}
+
+#contact-form-box {
+    background: rgba(135,206,250,0.7);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+#submit-button {
+    margin-bottom: 10px;
+}
