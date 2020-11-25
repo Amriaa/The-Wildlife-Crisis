@@ -4,7 +4,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #navbar {
     background-color: darkolivegreen;
@@ -32,6 +33,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
+  margin-right: 20px;
 }
 
 footer a {
